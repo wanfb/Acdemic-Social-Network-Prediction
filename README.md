@@ -41,7 +41,7 @@ To use the code in task 1
 * author_analysi-6
 
 #### 3. Result visualization
-<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/community%20_discovery.jpg" width = "300" height = "200" align=center />
+<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/community%20_discovery.jpg" width = "600" height = "400" align=center />
 
 # Task 2
 For Task 2, we show the ego-network of a scholar based on his cooperation relationship with others. Here we show the ego-network of Feifei Li.
@@ -65,4 +65,4 @@ To use the code in task 1
 * author_analysi-6
 
 #### 3. Result visualization
-<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/ego-network.JPG" width = "300" height = "200" align=center />
+<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/ego-network.JPG" width = "600" height = "400" align=center />
