@@ -20,4 +20,5 @@ Model social relationships among scholars, like predicting the cooperation relat
 
 # Task 1
 For Task 1, we use `Louvain` algorithm for community discovery. Louvain algorithm based on Modularity, which describes the closeness within communities. We reserve the communities that have more than 500 papers. The results can be seen as follows.
-![](https://github.com/wanfb/Acdemic-Social-Network-Prediction/raw/master/pictures/community_discovery.jpg)  
+
+![image](https://github.com/wanfb/Acdemic-Social-Network-Prediction/raw/master/pictures/community _discovery.jpg)  
