@@ -1,17 +1,23 @@
 # Acdemic-Social-Network-Prediction
 This is the final Project of Social Network Mining in Fudan University
 
-This project is finished by Fangbin Wan, Yihao Xu and Baolong Yang. Xu is in charge of the Task One and Task Two, Wan is in charge of Task Three, the visualization part is done by Yang.
+This project is finished by Fangbin Wan, Yihao Xu and Baolong Yang. Xu is in charge of the Task 1 and Task 2, Wan is in charge of Task 3 and the visualization part is done by Yang.
 
 Your generous comments and suggestions about our work is appreciated.
 
 # Task Review
 
-## Task 1
-Design clustering algorithms or community mining algorithms to cluster all the papers in the data set. Use visualize tools to show all fields (ie, communities, identify corresponding community research topics), and highlight the most influential scholars in each field.
+The total project is divided into three tasks. The dataset we ultilized is DBLP. It collects information of paper published on journals and conference about computer.
 
-## Task 2
-Realization of demonstrating the ego-network to any input scholar (refer to the function example on the ArnetMiner website).
+### Task 1 (Community Discovery)
+Design clustering algorithms or community mining algorithms to cluster all the papers in the data set. Use visualize tools to show all fields and highlight the most influential scholars in each field.
 
-## Task 3
-Use the data provided by DBLP and ArnetMiner to analyze and model more social relationships among scholars, such as predicting the cooperation or citation relationship between two scholars, and predicting which conference will a scholar publish papers on in the future.
+### Task 2 (Ego-network)
+Show the ego-network of any input scholar. 
+
+### Task 3 (Link Prediction)
+Model social relationships among scholars, like predicting the cooperation relationship or citation relationship within shcolars.
+
+# Task 1
+For Task 1, we use `Louvain` algorithm for community discovery. Louvain algorithm based on Modularity, which describes the closeness within communities. We reserve the communities that have more than 500 papers. The results can be seen as follows.
+
