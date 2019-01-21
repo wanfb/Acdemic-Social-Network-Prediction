@@ -24,4 +24,5 @@ To use the code in task 1
 <img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/community%20_discovery.jpg" width = "600" height = "400" align=center />
 
 Here is the word cloud of computer vision.
+
 <img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/word_cloud.jpg" width = "400" height = "200" align=center />
