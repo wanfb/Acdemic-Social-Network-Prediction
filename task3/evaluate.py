@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-import pdb
-
 predict_file = open('./data/raw/output.txt', 'r')
 true_file = open('./data/raw/testing_set_label.txt', 'r')
 
@@ -23,13 +21,12 @@ for i in range(len(predict) - 1):
         FP = FP + 1
     if predict[i + 1][1] == str(0) and predict[i + 1][1] != true[i][2]:
         FN = FN + 1
-pdb.set_trace()
+
 accuracy = (TP + TN) / (TP + TN + FP + FN)
 precision = TP / (TP + FP)
 recall = TP / (TP + FN)
 F1 = 2 * precision * recall /(precision + recall)
 
-#pdb.set_trace()
 print('准确率：' + str(accuracy))
 print('精确率：' + str(precision))
 print('召回率：' + str(recall))
