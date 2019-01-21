@@ -17,9 +17,3 @@ prediction = gbm.predict(x_test)
 # print(MAE)
 scores = cross_val_score(gbm, x_train, y_train, cv=3, scoring='roc_auc')
 print(scores.mean())
-
-fpr, tpr, thresholds = metrics.roc_curve(y_test, prediction, pos_label=0)
-plt.plot(fpr, tpr)
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-
