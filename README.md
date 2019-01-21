@@ -47,7 +47,8 @@ To use the code in task 1
 <img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/community%20_discovery.jpg" width = "600" height = "400" align=center />
 
 Here is the word cloud of computer vision.
-<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/word_cloud.jpg" width = "600" height = "400" align=center />
+
+<img src="https://github.com/wanfb/Acdemic-Social-Network-Prediction/blob/master/pictures/word_cloud.jpg" width = "400" height = "200" align=center />
 
 # Task 2
 For Task 2, we show the ego-network of a scholar based on his(her) cooperation relationship with other scholars. Here is the ego-network of Feifei Li.
