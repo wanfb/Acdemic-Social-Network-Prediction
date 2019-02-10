@@ -1,13 +1,6 @@
 # Acdemic-Social-Network-Prediction
 This is the final project of Social Network Mining in Fudan University
 
-This project is finished by Fangbin Wan, Yihao Xu and Baolong Yang. 
-Xu is in charge of the Task 1 and Task 2;
-Wan is in charge of Task 3;
-The visualization part is done by Yang.
-
-We are appreciated to your generous comments and suggestions about our work.
-
 # Task Review
 
 The total project is divided into three tasks. The dataset we ultilized is DBLP. It collects information of paper published on journals and conference about computer.
